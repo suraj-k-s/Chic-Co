@@ -62,7 +62,7 @@ else
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Chic&Co::Stock</title>
+<title>ROSAÉ PARIS::Stock</title>
 </head>
 
 <body>
@@ -93,7 +93,7 @@ else
   <table width="200" border="1" align="center">
     <tr>
     
-      <td>Sl no</td>
+      <td>SL No</td>
       <td>Date</td>
       <td>Quantity</td>
       <td>Action</td>

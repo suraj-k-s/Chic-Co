@@ -70,7 +70,7 @@ if($Currentpassword==$dbpassword)
 	<br><br><br><br><br>
 	<div id="tab">
 <form id="form1" name="form1" method="post" action="">
-<h1 align="center">ChangePassword</h1>
+<h1 align="center">Change Password</h1>
   <table align="center"  border="1">
     <tr>
       <td >Current Password</td>
@@ -78,12 +78,12 @@ if($Currentpassword==$dbpassword)
       <input type="password"  name="txtconfirmpassword" id="txtconpassword" pattern="[a-zA-Z0-9+!@#$%^&*()_-]{6}" autocomplete="off" required/></td>
     </tr>
     <tr>
-      <td>Newpassword</td>
+      <td>New password</td>
       <td><label for="txtnewpassword"></label>
       <input type="password" name="txtnewpassword" id="txtnewpassword" pattern="[a-zA-Z0-9+!@#$%^&*()_-]{6}" autocomplete="off" required/></td>
     </tr>
     <tr>
-      <td>Re_Password</td>
+      <td>Conirm Password</td>
       <td><label for="txtrepassword"></label>
       <input type="password" name="txtrepassword" id="txtrepassword" pattern="[a-zA-Z0-9+!@#$%^&*()_-]{6}" autocomplete="off" required/></td>
     </tr>

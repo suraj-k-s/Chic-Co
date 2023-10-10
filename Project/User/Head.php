@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Chic&Co</title>
+        <title>ROSAÉ PARIS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -37,27 +37,36 @@
         background: black !important;
         z-index: 9;
     }
+    .btn-view:hover{
+        background-color: grey;
+    }
+    .btn-add{
+        background-color: black !important;
+        color: white !important;
+    }
 		</style>
         <div class="navbar navbar-expand-lg bg-dark navbar-light" >
             <div class="container-fluid">
-                <a href="../index.php" class="navbar-brand" >Chic<span>&Co</span></a>
+                <a href="../index.php" class="navbar-brand" style="color:white" >ROSAÉ<span style="color:white"> PARIS</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="HomePage.php" class="nav-item nav-link active" >Home</a>
+                        <a href="HomePage.php" class="nav-item nav-link active" style="color:white" >Home</a>
                        
                        
-                        <a href="SearchProduct.php" class="nav-item nav-link ">Search</a>
+                        <a href="SearchProduct.php" class="nav-item nav-link " style="color:white">Search</a>
+                        <a href="SearchShop.php" class="nav-item nav-link " style="color:white">Custom</a>
+                        <a href="ViewRequest.php" class="nav-item nav-link " style="color:white">Requests</a> 
                         
-                        <a href="MYCart.php" class="nav-item nav-link ">Cart</a>
-                        <a href="MyBooking.php" class="nav-item nav-link " >Booking Details</a>
-                        <a href="Complaint.php" class="nav-item nav-link " >Complaint</a>
+                        <a href="MYCart.php" class="nav-item nav-link "style="color:white">Cart</a>
+                        <a href="MyBooking.php" class="nav-item nav-link "style="color:white" >Booking Details</a>
+                        <a href="Complaint.php" class="nav-item nav-link "style="color:white" >Complaint</a>
                         
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profile</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color:white">Profile</a>
                             <div class="dropdown-menu">
                                 <a href="MyProfile.php" class="dropdown-item" >Profile</a>
                                 <a href="EditProfile.php" class="dropdown-item" >Edit Profile</a>
@@ -65,11 +74,11 @@
                                 
                             </div>
                         </div>
-                        <a href="../Guest/Login.php" class="nav-item nav-link" >Logout</a>
+                        <a href="../Guest/Login.php" class="nav-item nav-link" style="color:white" >Logout</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Nav Bar End -->
 
-        <br><br>
+        <br><br><br><br><br><br><br><br>

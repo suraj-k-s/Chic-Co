@@ -80,7 +80,7 @@ if(isset($_GET["pid"]))
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Chic&Co::Product</title>
+<title>ROSAÉ PARIS::Product ></title>
 </head>
 
 <body>
@@ -114,7 +114,7 @@ if(isset($_GET["pid"]))
      <td><label for="sel_category"></label>
       <label for="sel_category"></label>
         <select name="sel_category" id="sel_category" onChange="getSubcategory(this.value)" autocomplete="off" required>
-        <option value="">---select---</option>
+        <option value="">---Select---</option>
         <?php
 	  $categoryQry="select * from tbl_category";
 	  $res=$Conn->Query($categoryQry);
@@ -132,7 +132,7 @@ if(isset($_GET["pid"]))
      <td><label for="sel_subcategory"></label>
       <label for="sel_subcategory"></label>
         <select name="sel_subcategory" id="sel_subcategory" autocomplete="off" required >        
-        <option value="">---select---</option>
+        <option value="">---Select---</option>
        </select></td>
     </tr>
 
@@ -149,7 +149,7 @@ if(isset($_GET["pid"]))
 ?>
   <table align="center"  border="1">
     <tr>
-      <td>Sl no</td>
+      <td>SL No</td>
       <td>Product name</td>
       <td>Price</td>
       <td>Category</td>
@@ -170,7 +170,7 @@ if(isset($_GET["pid"]))
     <td><?php echo $row["category_name"]?></td> 
     <td><?php echo $row["subcategory_name"]?></td> 
 	<td><a href="Product.php?id=<?php echo $row["product_id"];?>">Delete</a></td>
-    <td><a href="Stock.php?pid=<?php echo $row["product_id"];?>">stock</a></td>
+    <td><a href="Stock.php?pid=<?php echo $row["product_id"];?>">Stock</a></td>
 </tr>
 <br>
 <?php

@@ -56,12 +56,12 @@ $dname = "";
                                         <div class="white_box mb_30">
                                             <div class="box_header ">
                                                 <div class="main-title">
-                                                    <h3 class="mb-0" >Table complainttype</h3>
+                                                    <h3 class="mb-0" >Table Complaint Type</h3>
                                                 </div>
                                             </div>
                                             <form method="post">
                                                 <div class="form-group">
-                                                    <label for="txt_complainttype">complainttype Name</label>
+                                                    <label for="txt_complainttype">Complaint Type Name</label>
                                                     <input required="" type="text" class="form-control" id="txt_complainttype" name="txt_complainttype" autocomplete="off" required>
                                                 </div>
                                                 <div class="form-group" align="center">
@@ -77,8 +77,8 @@ $dname = "";
                                     <table class="table lms_table_active">
                                         <thead>
                                             <tr style="background-color: #74CBF9">
-                                                <td align="center" scope="col">Sl.No</td>
-                                                <td align="center" scope="col">complainttype</td>
+                                                <td align="center" scope="col">SL No</td>
+                                                <td align="center" scope="col">Complaint type</td>
                                                 <td align="center" scope="col">Action</td>
                                             </tr>
                                         </thead>

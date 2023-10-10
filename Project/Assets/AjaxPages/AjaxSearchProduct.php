@@ -205,7 +205,7 @@ include("../Connection/Connection.php");
 											
                                                 if ($stock > 0) {
                                         ?>
-                                        <a href="javascript:void(0)" onclick="addCart('<?php echo $rowS["product_id"]; ?>')" class="btn btn-success btn-block">Add to Cart</a>
+                                        <a href="javascript:void(0)" onclick="addCart('<?php echo $rowS["product_id"]; ?>')"  class="btn btn-block btn-add">Add to Cart</a>
                                         <?php
                                         } else if ($stock == 0) {
                                         ?>
@@ -218,7 +218,7 @@ include("../Connection/Connection.php");
                                         <?php
                                             }
                                         ?>
-                                        <a href="ViewMore.php?id=<?php echo $rowS["product_id"]; ?>" class="btn btn-warning btn-block">View More</a>
+                                        <a href="ViewMore.php?id=<?php echo $rowS["product_id"]; ?>" class="btn btn-view btn-block">View More</a>
                                     </div>
                                 </div>
                             </div>

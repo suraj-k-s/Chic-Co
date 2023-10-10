@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Chic&Co</title>
+        <title>ROSAÉ PARIS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -34,13 +34,13 @@
         position: absolute;
         width: 100%;
         padding: 30px 60px;
-        background: black !important;
+        background: burlywood !important;
         z-index: 9;
     }
 		</style>
         <div class="navbar navbar-expand-lg bg-dark navbar-light">
             <div class="container-fluid">
-                <a href="../index.php" class="navbar-brand">Chic<span>&Co</span></a>
+                <a href="../index.php" class="navbar-brand" style="color:black">ROSAÉ<span style="color:grey"> PARIS</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,7 +51,7 @@
                         <a href="Product.php" class="nav-item nav-link ">Product</a>
                          <a href="OrderDetails.php" class="nav-item nav-link ">Order Details</a>
                        
-                        
+                         <a href="ViewRequest.php" class="nav-item nav-link ">Request</a>  
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profile</a>
                             <div class="dropdown-menu">

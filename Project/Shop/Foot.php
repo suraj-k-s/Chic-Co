@@ -7,9 +7,9 @@
                             <div class="col-md-6">
                                 <div class="footer-contact">
                                     <h2>Our Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, Paris, France</p>
+                                    <p><i class="fa fa-phone-alt"></i>+33 9885664652</p>
+                                    <p><i class="fa fa-envelope"></i>boutique@rosaeparis.com</p>
                                     <div class="footer-social">
                                         <a href=""><i class="fab fa-twitter"></i></a>
                                         <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -26,7 +26,7 @@
                                     <a href="">Privacy policy</a>
                                     <a href="">Cookies</a>
                                     <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="">FAQs</a>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
+                            ROSAÉ PARIS newsletter to get all the latest fashion news, inspiration and style tips, as well as access to exclusive offers.
                             </p>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
@@ -47,8 +47,8 @@
             </div>
             <div class="copyright">
                 <div class="container">
-                    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p>Copyright &copy; <a href="#">ROSAÉ PARIS</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="https://htmlcodex.com">Claire Rouen</a></p>
                 </div>
             </div>
         </div>

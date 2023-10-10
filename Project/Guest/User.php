@@ -56,7 +56,7 @@ $D = date('d');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Chic&Co::User</title>
+<title>ROSAÉ PARIS::User</title>
 </head>
 
 <body>
@@ -77,10 +77,10 @@ $D = date('d');
     </tr>
   <tr>
       <td>Gender</td>
-      <td ><input type="radio" name="gender" id="btnmale" value="male" autocomplete="off" required/>male
+      <td ><input type="radio" name="gender" id="btnmale" value="male" autocomplete="off" required/>Male
       <label for="btnmale">
-        <input type="radio" name="gender" id="btnfemale" value="female"/>female
-        <input type="radio" name="gender" id="btnothers" value="others"/>others
+        <input type="radio" name="gender" id="btnfemale" value="female"/>Female
+        <input type="radio" name="gender" id="btnothers" value="others"/>Others
       </label></td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@ $D = date('d');
     </tr>
    
     <tr>
-      <td>Dob</td>
+      <td>DOB</td>
       <td><label for="txtdob"></label>
       <input type="date" name="txtdob" id="txtdob" max="<?php echo $Y."-".$M."-".$D; ?>" autocomplete="off" required/></td>
     </tr>

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Chic&Co</title>
+        <title>ROSAÉ PARIS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -40,7 +40,7 @@
 		</style>
         <div class="navbar navbar-expand-lg bg-dark navbar-light">
             <div class="container-fluid">
-                <a href="../index.php" class="navbar-brand">Chic<span>&Co</span></a>
+                <a href="../index.php" class="navbar-brand" style="color:white">ROSAÉ<span style="color:grey"> PARIS</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>

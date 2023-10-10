@@ -72,11 +72,11 @@ if(isset($_POST["btnsubmit"]))
 ?>
   <table align="center" border="1">
     <tr>
-      <td>Sl.No</td>
+      <td>SL.No</td>
       <td>Type</td>
       <td>Date</td>
        <td>Content</td>
-      <td>Replay</td>
+      <td>Reply</td>
     </tr>
     <?php
 	$i=0;

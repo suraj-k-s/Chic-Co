@@ -38,7 +38,7 @@ $selQry="select * from tbl_product p inner join tbl_subcategory s on p.subcatego
         <td><?php echo $row["subcategory_name"];?></td>
       </tr>
       <tr>
-        <td>shop Name</td>
+        <td>Shop Name</td>
         <td><?php echo $row["shop_name"];?></td>
       </tr>
       <tr>

@@ -24,12 +24,17 @@ include("../Assets/Connection/Connection.php");
 
             .product-price {
                 float: left;
-                width: 12%;
+                width: 10%;
             }
 
             .product-quantity {
                 float: left;
                 width: 16%;
+            }
+
+            .product-size {
+                float: left;
+                width: 15%;
             }
 
             .product-removal {
@@ -218,14 +223,14 @@ include("../Assets/Connection/Connection.php");
                     width: 70px;
                 }
 
-                .product-quantity {
+                .product-size {
                     width: 100px;
                 }
                 .product-quantity input {
                     margin-left: 20px;
                 }
 
-                .product-quantity:before {
+                .product-size:before {
                     content: "x";
                 }
 
@@ -311,7 +316,7 @@ include("../Assets/Connection/Connection.php");
         if (isset($_POST["btn_checkout"])) {
                  
                  $amt = $_POST["carttotalamt"];
-                
+                $size=$_POST['product-size'];
                 
                 $selC = "select * from tbl_booking where user_id='" .$_SESSION["uid"]. "'and booking_status='0'";
                 $rs = $Conn->query($selC);
@@ -321,7 +326,7 @@ include("../Assets/Connection/Connection.php");
                 $upQry1 = "update tbl_booking set booking_date=curdate(),booking_amount='".$amt."',booking_status='1' where user_id='" .$_SESSION["uid"]. "'";
 				$Conn->query($upQry1);
 				
-				 $upQry1 = "update tbl_cart set cart_status='1' where booking_id='" .$row["booking_id"]. "'";
+				 $upQry1 = "update tbl_cart set cart_status='1', cart_size='".$size."' where booking_id='" .$row["booking_id"]. "'";
                 if($Conn->query($upQry1))
                 {
 					
@@ -359,8 +364,9 @@ include("../Assets/Connection/Connection.php");
                 <label class="product-price" style="width: 16%; text-align:center">Details</label>	
                 <label class="product-price" style="width: 10%; text-align:center">Price</label>
                 <label class="product-price" style="width: 13%; text-align:center">Qty</label>
+                <label class="product-price" style="width: 13%; text-align:center">Size</label>
                 <label class="product-price" style="width: 10%; text-align:center">Remove</label>
-                <label class="product-price" style="width: 16%; text-align:center">Total</label>
+                <label class="product-price" text-align:center">Total</label>
             </div>
 <form method="post">
         <div class="shopping-cart" style="margin-top: 50px">            <?php                
@@ -400,6 +406,15 @@ include("../Assets/Connection/Connection.php");
 						<?php
 					}
 					?>
+                </select>
+                </div>
+                <div class="product-size">
+                <select name="product-size" id="<?php echo $row["cart_id"]?>" style="width:90px">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
                 </select>
                 </div>
                 <div class="product-removal">

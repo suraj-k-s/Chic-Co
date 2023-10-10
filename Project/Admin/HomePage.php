@@ -22,7 +22,7 @@
 														echo $data["id"];
                                                         ?>
                                                         </span> </h3>
-                                                        <p>Kudumbasree</p>
+                                                        <p>Shop</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -35,7 +35,7 @@
                             <div class="white_box card_height_100">
                                 <div class="box_header border_bottom_1px  ">
                                     <div class="main-title">
-                                        <h3 class="mb_25">Kudumbasree</h3>
+                                        <h3 class="mb_25">Shop</h3>
                                     </div>
                                 </div>
                                 <div class="staf_list_wrapper sraf_active owl-carousel">

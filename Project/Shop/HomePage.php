@@ -5,7 +5,7 @@
         session_start();
        ?>
         <meta charset="utf-8">
-        <title>Chic&Co</title>
+        <title>ROSAÉ PARIS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -32,7 +32,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="HomePage.php" class="navbar-brand">Chic<span>&Co</span></a>
+                <a href="HomePage.php" class="navbar-brand" style="color:black">ROSAÉ<span style="color:grey"> PARIS</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -42,8 +42,7 @@
                         <a href="HomePage.php" class="nav-item nav-link active">Home</a>
                         <a href="Product.php" class="nav-item nav-link ">Product</a>
                          <a href="OrderDetails.php" class="nav-item nav-link ">Order Details</a>
-                       
-                        
+                         <a href="ViewRequest.php" class="nav-item nav-link ">Request</a>                        
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profile</a>
                             <div class="dropdown-menu">
@@ -72,7 +71,7 @@
                         <div class="carousel-text">
                             <h1>Welcome <span><?php echo $_SESSION["kname"];?></span> </h1>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
+                            ROSAÉ PARIS is one of the world’s leading luxury brands.
                             </p>
                           
                         </div>
@@ -84,7 +83,7 @@
                         <div class="carousel-text">
                         <h1>Welcome <span><?php echo $_SESSION["kname"];?></span> </h1>
                             <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
+                            The customer is at the heart of our unique business model, which includes design, production, distribution and sales through our extensive retail network.
                             </p>
                         
                         </div>
@@ -96,7 +95,7 @@
                         <div class="carousel-text">
                         <h1>Welcome <span><?php echo $_SESSION["kname"];?></span> </h1>
                             <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
+                            Following the House's centenary,ROSAÉ PARIS forges ahead continuing to redefine luxury while celebrating creativity,France craftmanship,and innovation.
                             </p>
                           
                         </div>
@@ -118,9 +117,9 @@
                             <div class="col-md-6">
                                 <div class="footer-contact">
                                     <h2>Our Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, Paris, France</p>
+                                    <p><i class="fa fa-phone-alt"></i>+33 9885664652</p>
+                                    <p><i class="fa fa-envelope"></i>boutique@rosaeparis.com</p>
                                     <div class="footer-social">
                                         <a href=""><i class="fab fa-twitter"></i></a>
                                         <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -137,7 +136,7 @@
                                     <a href="">Privacy policy</a>
                                     <a href="">Cookies</a>
                                     <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="">FAQs</a>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +145,7 @@
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
+                            ROSAÉ PARIS newsletter to get all the latest fashion news, inspiration and style tips, as well as access to exclusive offers.
                             </p>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
@@ -158,8 +157,8 @@
             </div>
             <div class="copyright">
                 <div class="container">
-                    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p>Copyright &copy; <a href="#">ROSAÉ PARIS</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="https://htmlcodex.com">Claire Rouen</a></p>
                 </div>
             </div>
         </div>

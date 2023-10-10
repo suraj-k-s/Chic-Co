@@ -20,13 +20,14 @@ include("../Assets/Connection/Connection.php");
 <form id="form1" name="form1" method="post" action="">
 <table border="1">
   <tr>
-    <td>SlNo</td>
+    <td>SL No</td>
     <td>Name</td>
     <td>Photo</td>
     <td>Quantity</td>
-    <td>Total amount</td>
-    <td>shop Name</td>
+    <td>Total Amount</td>
+    <td>Shop Name</td>
     <td>Status</td>
+	<td>Size</td>
   </tr>
       <?php
 	  $i=0;
@@ -83,9 +84,12 @@ include("../Assets/Connection/Connection.php");
 					}
 					?>
                     </td>
-                    
+					
+		<td><?php echo $row["cart_size"] ?></td>
+				
 					
        </tr>
+	
 <?php
 	}
 	}

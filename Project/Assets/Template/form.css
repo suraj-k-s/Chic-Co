@@ -33,7 +33,6 @@ input[type=text],[type=password],[type=email],[type=date], select {
 }
 
 input[type=submit] {
-  width: 40%;
   background-color: black;
   color: white;
   padding:  15px;
